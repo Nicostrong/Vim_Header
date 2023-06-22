@@ -68,7 +68,8 @@ let g:HeaderInsert = 0
 let g:filename = expand('%:t')
 let g:date_born = strftime('%d/%m/%Y %H:%M:%S')
 let g:date_update = strftime('%d/%m/%Y %H:%M:%S')
-"let g:username = trim(system('whoami'))
+"let g:username = trim(system('id -un'))
+"let g:username = trim(system('id -F'))
 let g:username = "Nicostrong"
 let g:email = " <nicostrong@msn.com>"
 
